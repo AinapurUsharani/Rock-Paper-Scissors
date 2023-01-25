@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  background-color: #223a5f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-center;
+}
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .Header {
+    width: 70%;
+    align-self: center;
+    margin-top: 30px;
+  }
+}
+.List-items {
+  display: flex;
+  flex-direction: column;
+}
+.names {
+  list-style-type: none;
+  font-family: Bree Serif;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  width: 50px;
+}
+
+.score-container {
+  background-color: #ffffff;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-container {
+    width: 130px;
+  }
+}
+.score-name {
+  font-family: Bree Serif;
+  color: #223a5f;
+  line-height: 0;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-name {
+    font-size: 30px;
+  }
+}
+.score-value {
+  font-family: 'Roboto';
+  color: #223a5f;
+  line-height: 0;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-value {
+    font-size: 40px;
+  }
+}
+.game-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .game-container {
+    width: 400px;
+    align-self: center;
+  }
+}
+
+.trigger-button {
+  font-family: Bree Serif;
+  color: #223a5f;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  align-self: flex-end;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.pop-container {
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  width: 330px;
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .pop-container {
+    width: 450px;
+  }
+}
+.rules-image {
+  height: 280px;
+  width: 280px;
+  margin: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .rules-image {
+    width: 90%;
+    height: 70%;
+  }
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  align-self: flex-end;
+}
+.result-image {
+  height: 150px;
+  width: 150px;
+}
+
+.result-container {
+  width: 100%;
+
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .result-container {
+    width: 40%;
+    align-self: center;
+  }
+}
+.image-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.my-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.paragraph {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 0;
+}
+.result-paragraph {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 0;
+}
+.playAgain {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-family: Bree Serif;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+  color: #223a5f;
+  padding: 15px;
+  border-radius: 5px;
+}
